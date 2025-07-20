@@ -1,0 +1,886 @@
+/* RESPONSİVE */
+
+@media (max-width: 1090px) {
+     html {
+          font-size: 12px;
+     }
+
+     section {
+          padding: 3rem 6%;
+     }
+
+     .homeContent {
+          width: 100%;
+          height: auto;
+          align-items: center;
+          justify-content: center;
+          margin-top: 10rem;
+          gap: 2rem;
+     }
+
+     .homeText {
+          width: 58%;
+          height: auto;
+          gap: 1.3rem;
+     }
+
+     .homeText h1 {
+          font-size: 2.2rem;
+     }
+
+     .homeText h3 {
+          font-size: 1.6rem;
+     }
+
+     .homeText p {
+          font-size: 1.1rem;
+     }
+
+     .homeImage {
+          width: 35%;
+          height: 20rem;
+          justify-content: center;
+          margin-bottom: 5rem;
+          margin-top: 6rem;
+     }
+
+     .homeImage img {
+          width: 95%;
+          max-width: 400px;
+     }
+
+     .links {
+          width: 90%;
+     }
+
+     .card p {
+          font-size: 1.2rem;
+          margin: 1rem;
+          line-height: 1.2;
+     }
+
+     .blogContainer {
+          display: grid;
+          grid-template-columns: repeat(2, 2fr);
+          justify-items: center;
+          align-items: start;
+          margin: 40px auto 0;
+          gap: 1rem;
+          padding: 0 0.5rem;
+          width: 100%;
+          max-width: 1200px;
+     }
+
+
+     .section-title {
+          font-size: 1.8rem;
+          margin-top: 4.45rem;
+          margin-bottom: 1rem;
+          text-align: center;
+     }
+
+     .contact-content {
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 0.7rem;
+     }
+
+     .contact-info {
+          display: none;
+     }
+
+     .contact-form {
+          width: 75%;
+          padding: 1rem;
+     }
+
+     .form-group {
+          margin-bottom: 1rem;
+     }
+
+     .form-group label {
+          font-size: 1.1rem;
+          margin-bottom: 5px;
+     }
+
+     .form-group input,
+     .form-group textarea {
+          padding: 10px;
+          font-size: 1.1rem;
+     }
+
+     .form-group textarea {
+          min-height: 10rem;
+     }
+
+     .formLink {
+          width: 100%;
+          max-width: 12rem;
+          margin-top: -1.5rem;
+     }
+
+     .formButton {
+          height: 3.5rem;
+          font-size: 1.5rem;
+     }
+
+}
+
+@media (max-width: 770px) {
+     html {
+          font-size: 10px;
+     }
+
+     section {
+          padding: 1rem 6%;
+     }
+
+     .homeContent {
+          width: 100%;
+          height: auto;
+          flex-direction: column-reverse;
+          align-items: center;
+          justify-content: center;
+          margin-top: 2.5rem;
+          gap: 2.5rem;
+     }
+
+     .bar {
+          font-size: 2.2rem;
+     }
+
+     .burgerMenu {
+          width: 37%;
+     }
+
+     .burgerMenu p {
+          position: absolute;
+          top: 0.85rem;
+          font-size: 1.8rem;
+     }
+
+     .burgerMenu i {
+          font-size: 2.1rem;
+     }
+
+     .burgerHeader {
+          margin-top: 10rem !important;
+     }
+
+
+     .homeText {
+          width: 100%;
+          height: auto;
+          text-align: center;
+          gap: 1.3rem;
+     }
+
+     .homeText h1 {
+          font-size: 2.8rem;
+     }
+
+     .homeText h3 {
+          font-size: 1.6rem;
+     }
+
+     .homeText p {
+          font-size: 1.2rem;
+          padding: 0 1rem;
+     }
+
+     .homeImage {
+          width: 100%;
+          height: 13rem;
+          justify-content: center;
+          margin-bottom: 5rem;
+          margin-top: 6rem;
+     }
+
+     .homeImage img {
+          width: 70%;
+          max-width: 200px;
+     }
+
+     .links {
+          width: 100%;
+          justify-content: center;
+          gap: 2rem;
+     }
+
+     .button {
+          width: 8rem;
+          height: 3.5rem;
+          font-size: 1rem;
+     }
+
+
+     .card p {
+          font-size: 1.2rem;
+          margin: 1rem;
+          line-height: 1.2;
+     }
+
+     .blogContainer {
+          display: grid;
+          grid-template-columns: repeat(2, 2fr);
+          justify-items: center;
+          align-items: start;
+          margin: 40px auto 0;
+          gap: 1rem;
+          padding: 0 0.5rem;
+          width: 100%;
+          max-width: 1200px;
+     }
+
+     .box {
+          width: 100%;
+          max-width: 32rem;
+          height: auto;
+          min-height: 15rem;
+          margin: 2.5rem 0 0 0;
+          padding: 0.8rem;
+     }
+
+     .blog_item {
+          gap: 2.5rem;
+          text-align: center;
+          padding: 0.5rem;
+     }
+
+     .blog_item h1 {
+          font-size: 1.8rem;
+     }
+
+     .blog_item p {
+          margin-left: 0;
+          font-size: 1.3rem;
+          line-height: 1.3;
+          padding: 0 0.2rem;
+     }
+
+     .blog_item a {
+          font-size: 1.2rem;
+     }
+
+     .section-title {
+          font-size: 1.5rem;
+          margin-top: 8rem;
+          margin-bottom: 2rem;
+          text-align: center;
+     }
+
+     .contact-content {
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 1rem;
+          margin-top: -2rem;
+     }
+
+     .contact-info {
+          display: none;
+     }
+
+     .contact-form {
+          width: 85%;
+          padding: 1rem;
+     }
+
+     .form-group {
+          margin-bottom: 1rem;
+     }
+
+     .form-group label {
+          font-size: 1.6rem;
+          margin-bottom: 6px;
+     }
+
+     .form-group input,
+     .form-group textarea {
+          padding: 10px;
+          font-size: 1.3rem;
+     }
+
+     .form-group textarea {
+          min-height: 12rem;
+     }
+
+     .formLink {
+          width: 100%;
+          max-width: 12rem;
+          margin-top: -1.5rem;
+     }
+
+     .formButton {
+          height: 4.5rem;
+          width: 20%;
+          font-size: 1.5rem;
+          margin-top: 1rem;
+     }
+
+}
+
+@media (max-width: 570px) {
+     html {
+          font-size: 9.3px;
+     }
+
+     section {
+          padding: 1rem 3%;
+     }
+
+     .karsilamaPage h1 {
+          font-size: 2.85rem;
+     }
+
+     .homeContent {
+          width: 100%;
+          height: 70%;
+          flex-direction: column-reverse;
+          align-items: center;
+          justify-content: center;
+          margin-top: 7rem;
+          gap: 3rem;
+     }
+
+     .bar {
+          font-size: 2.5rem;
+     }
+
+     .burgerMenu {
+          width: 40%;
+     }
+
+     .burgerMenu i {
+          font-size: 2.1rem;
+     }
+
+     .burgerHeader {
+          margin-top: 10rem !important;
+     }
+
+     .homeText {
+          width: 100%;
+          height: auto;
+          text-align: center;
+          gap: 1.5rem;
+     }
+
+     .homeText h1 {
+          font-size: 2.8rem;
+     }
+
+     .homeText h3 {
+          font-size: 1.6rem;
+     }
+
+     .homeText p {
+          font-size: 1.1rem;
+          padding: 0 1rem;
+     }
+
+     .homeImage {
+          width: 100%;
+          height: 15rem;
+          justify-content: center;
+          margin-bottom: 5rem;
+          margin-top: 5rem;
+     }
+
+     .homeImage img {
+          width: 70%;
+          max-width: 200px;
+     }
+
+     .links {
+          width: 100%;
+          justify-content: center;
+          gap: 2rem;
+     }
+
+     .button {
+          width: 8rem;
+          height: 3.5rem;
+          font-size: 1rem;
+     }
+
+     .blogContainer {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          justify-items: center;
+          align-items: start;
+          margin: 30px auto auto;
+          gap: 1rem;
+          padding: 0 0.5rem;
+          width: 100%;
+          max-width: 1200px;
+     }
+
+     .box {
+          width: 100%;
+          max-width: 80%;
+          height: auto;
+          min-height: 0rem;
+          margin: 1rem 0 0 0;
+          padding: 0.6rem;
+     }
+
+     .blog_item {
+          gap: 1rem;
+          text-align: center;
+          padding: 0.5rem;
+     }
+
+     .blog_item h1 {
+          font-size: 1.6rem;
+     }
+
+     .blog_item p {
+          margin-left: 0;
+          font-size: 1.1rem;
+          line-height: 1.1;
+          padding: 0 0.2rem;
+     }
+
+     .blog_item a {
+          font-size: 1rem;
+     }
+
+     .section-title {
+          font-size: 1.8rem;
+          margin-top: 7rem;
+          margin-bottom: 4rem;
+          text-align: center;
+     }
+
+     .contact-content {
+          flex-direction: column;
+          gap: 2rem;
+     }
+
+     .contact-info {
+          display: none;
+     }
+
+     .contact-form {
+          min-width: 100%;
+          padding: 1rem;
+     }
+
+     .form-group {
+          margin-bottom: 2rem;
+     }
+
+     .form-group label {
+          font-size: 1.5rem;
+          margin-bottom: 5px;
+     }
+
+     .form-group input,
+     .form-group textarea {
+          padding: 10px;
+          font-size: 1.5rem;
+     }
+
+     .form-group textarea {
+          min-height: 10rem;
+     }
+
+     .formLink {
+          width: 100%;
+          max-width: 12rem;
+          margin-top: -1.5rem;
+     }
+
+     .formButton {
+          height: 4.5rem;
+          font-size: 1.5rem;
+     }
+}
+
+@media (max-width: 380px) {
+     html {
+          font-size: 8.6px;
+     }
+
+     section {
+          padding: 3rem 2%;
+     }
+
+     .karsilamaPage h1 {
+          font-size: 2.7rem;
+     }
+
+     .burgerMenu {
+          width: 40%;
+     }
+
+     .burgerMenu i {
+          font-size: 2rem;
+     }
+
+     .burgerHeader {
+          margin-top: 9rem !important;
+     }
+
+     .homeContent {
+          width: 100%;
+          height: auto;
+          flex-direction: column-reverse;
+          align-items: center;
+          justify-content: center;
+          margin-top: 7rem;
+          gap: 3rem;
+     }
+
+     .homeText {
+          width: 100%;
+          height: auto;
+          text-align: center;
+          gap: 1.5rem;
+     }
+
+     .homeText h1 {
+          font-size: 2.8rem;
+     }
+
+     .homeText h3 {
+          font-size: 1.6rem;
+     }
+
+     .homeText p {
+          font-size: 1.1rem;
+          padding: 0 1rem;
+     }
+
+     .homeImage {
+          width: 100%;
+          height: 15rem;
+          justify-content: center;
+          margin-bottom: 5rem;
+          margin-top: 5rem;
+     }
+
+     .homeImage img {
+          width: 70%;
+          max-width: 200px;
+     }
+
+     .links {
+          width: 100%;
+          justify-content: center;
+          gap: 2rem;
+     }
+
+     .button {
+          width: 8rem;
+          height: 3.5rem;
+          font-size: 1rem;
+     }
+
+     .portfolio {
+          padding: 2rem 0;
+     }
+
+     .portfolioContent {
+          width: 100%;
+          overflow: hidden;
+     }
+
+     .cards {
+          width: 100%;
+          height: 60rem;
+          margin-top: 2rem;
+     }
+
+     .card {
+          width: 25rem;
+          height: 32rem;
+          margin-top: 0;
+     }
+
+     .card img {
+          height: 14rem;
+          margin-bottom: 1.5rem;
+     }
+
+     .card h3 {
+          font-size: 1.8rem;
+          margin: 0 1rem;
+     }
+
+     .card p {
+          font-size: 0.9rem;
+          margin: 1rem;
+          line-height: 1.2;
+     }
+
+     .card-2 {
+          transform: translateX(-12rem) scale(0.85);
+          filter: blur(2px) brightness(0.8);
+          opacity: 0.6;
+     }
+
+     .card-3 {
+          transform: translateX(12rem) scale(0.85);
+          filter: blur(2px) brightness(0.8);
+          opacity: 0.6;
+     }
+
+     .card-4 {
+          transform: translateX(24rem) scale(0.7);
+          opacity: 0;
+     }
+
+     .arrow {
+          font-size: 2.5rem;
+     }
+
+     .arrow-left {
+          left: 37rem;
+     }
+
+     .arrow-right {
+          right: 37rem;
+     }
+
+     .blogContainer {
+          grid-template-columns: repeat(1, 1fr);
+          justify-content: center;
+          margin-left: 30px;
+          margin-top: 40px;
+          gap: 1rem;
+          padding: 0 0.5rem;
+          width: 100%;
+     }
+
+     .box {
+          width: 100%;
+          max-width: 32rem;
+          height: auto;
+          min-height: 12rem;
+          margin-top: 1rem;
+          padding: 0.8rem;
+          margin-left: 0;
+          margin-right: 7rem;
+     }
+
+     .blog_item {
+          gap: 1rem;
+          text-align: center;
+          padding: 0.5rem;
+     }
+
+     .blog_item h1 {
+          font-size: 1.6rem;
+     }
+
+     .blog_item p {
+          margin-left: 0;
+          font-size: 1.1rem;
+          line-height: 1.1;
+          padding: 0 0.2rem;
+     }
+
+     .blog_item a {
+          font-size: 1rem;
+     }
+
+     .section-title {
+          font-size: 1.8rem;
+          margin-top: 7rem;
+          margin-bottom: 4rem;
+          text-align: center;
+     }
+
+     .contact-content {
+          flex-direction: column;
+          gap: 2rem;
+     }
+
+     .contact-info {
+          display: none;
+     }
+
+     .contact-form {
+          min-width: 100%;
+          padding: 1rem;
+     }
+
+     .form-group {
+          margin-bottom: 2rem;
+     }
+
+     .form-group label {
+          font-size: 1.5rem;
+          margin-bottom: 5px;
+     }
+
+     .form-group input,
+     .form-group textarea {
+          padding: 10px;
+          font-size: 1.5rem;
+     }
+
+     .form-group textarea {
+          min-height: 10rem;
+     }
+
+     .formLink {
+          width: 100%;
+          max-width: 12rem;
+          margin-top: -1.5rem;
+     }
+
+     .formButton {
+          height: 4.5rem;
+          font-size: 1.5rem;
+          margin-bottom: 2rem;
+     }
+
+     section:last-of-type {
+          height: calc(100vh + 2rem);
+          /* footer yüksekliği kadar fazladan yer aç */
+     }
+
+     .fotter footer {
+          font-size: 1.2rem;
+          padding: 0 1rem;
+          height: auto;
+          min-height: 2rem;
+     }
+}
+
+
+
+/* YÜKSEKLİK BREAKPOİNT */
+
+
+@media (min-height: 650px) {
+     .homeText {
+          gap: 1.5rem;
+     }
+
+     .homeContent {
+          margin-top: 10%;
+     }
+
+     .greeting {
+          top: 6rem;
+     }
+
+     .links {
+          margin-top: 3rem;
+     }
+
+     .button {
+          margin-top: 3.5rem;
+     }
+
+     .blogContainer {
+          margin-top: 3%;
+     }
+
+     .contact-content {
+          margin-top: 10%;
+          margin-bottom: 16rem;
+     }
+}
+
+@media (min-height: 800px) {
+     .homeText h1 {
+          font-size: 3.2rem;
+     }
+
+     .homeText h3 {
+          font-size: 2rem;
+     }
+
+     .homeText p {
+          font-size: 1.4rem;
+          line-height: 1.6;
+     }
+
+     .aboutContent h1 {
+          font-size: 3.5rem;
+     }
+
+     .card {
+          height: 37rem;
+     }
+
+     .box {
+          height: 18rem;
+     }
+
+     .blog_item h1 {
+          font-size: 2.4rem;
+     }
+
+     .form-group input,
+     .form-group textarea {
+          padding: 16px;
+     }
+}
+
+
+@media (min-height: 1000px) {
+     .homeContent {
+          margin-top: 8rem;
+     }
+
+     .homeText {
+          gap: 2rem;
+     }
+
+     .homeText h1 {
+          font-size: 4rem;
+     }
+
+     .homeText h3 {
+          font-size: 2.2rem;
+     }
+
+     .homeText p {
+          font-size: 1.5rem;
+          line-height: 1.8;
+     }
+
+     .aboutContent {
+          gap: 3rem;
+     }
+
+     .aboutContent h1 {
+          font-size: 4rem;
+     }
+
+     .card {
+          height: 40rem;
+     }
+
+     .box {
+          height: 20rem;
+     }
+
+     .blog_item h1 {
+          font-size: 2.6rem;
+     }
+
+     .blog_item p {
+          font-size: 1.2rem;
+     }
+
+     .form-group input,
+     .form-group textarea {
+          font-size: 1.2rem;
+     }
+
+     .formButton {
+          height: 3.5rem;
+     }
+
+     .formLink {
+          width: 17rem;
+     }
+}
