@@ -5,7 +5,6 @@
      text-decoration: none;
      scroll-behavior: smooth;
      font-family: 'Recursive', monospace;
-
 }
 
 html {
@@ -15,6 +14,7 @@ html {
 
 body {
      color: white;
+     overflow-x: hidden;
 }
 
 .container {
@@ -90,14 +90,13 @@ section {
      position: relative;
      top: 8rem;
      animation: fadeIn 1s ease-out;
-
 }
 
 .closure::after {
      content: '';
      position: absolute;
      height: 12rem;
-     width: 20rem;
+     width: 19rem;
      background: black;
      transform: translate(-20rem, -11.5rem);
 }
@@ -106,7 +105,7 @@ section {
      content: '';
      position: absolute;
      height: 12rem;
-     width: 20rem;
+     width: 18.5rem;
      background: black;
      transform: translate(-17rem, 4.5rem);
 }
@@ -281,8 +280,8 @@ section {
      align-items: center;
      justify-content: space-between;
      flex-direction: row;
-
      margin-top: 4rem;
+     
 }
 
 .homeText {
@@ -323,6 +322,7 @@ section {
      width: 40rem;
      height: 3rem;
      position: relative;
+     
 }
 
 .links a {
@@ -408,6 +408,7 @@ section {
      display: flex;
      justify-content: flex-end;
      align-items: center;
+     
 }
 
 .homeImage img {
@@ -417,6 +418,7 @@ section {
      box-shadow: 0 0 15px 0 white;
      object-fit: cover;
      animation: image 6s ease-in-out infinite;
+     
 }
 
 
@@ -480,7 +482,7 @@ section {
 .card {
      position: absolute;
      width: 30rem;
-     height: 35rem;
+     height: 38rem;
      background-color: white;
      border-radius: 12px;
      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
@@ -756,6 +758,40 @@ section {
      margin-top: -0.5rem;
      height: 3rem;
 }
+
+.form-message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  padding: 20px 30px;
+  font-size: 18px;
+  border-radius: 8px;
+  z-index: 9999;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  text-align: center;
+  min-width: 250px;
+}
+
+.form-message.success {
+  display: block;
+  background-color: #39FF14;
+  color: white;
+  border: 1px solid #c3e6cb;
+  opacity: 1;
+}
+
+.form-message.error {
+  display: block;
+  background-color: red;
+  color: white;
+  border: 1px solid #f5c6cb;
+  opacity: 1;
+}
+
+
 
 section:last-of-type {
      height: calc(100vh + 5rem);
