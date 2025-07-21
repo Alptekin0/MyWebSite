@@ -69,10 +69,13 @@
                          <h1 class="animate right">MEHMET EMİN ALPTEKİN</h1>
                          <h3 class="animate left">BACKEND DEVELOPER</h3>
                          <p class="animate bottom">
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aspernatur quos,
-                              voluptates suscipit aliquam amet! Deleniti similique commodi provident, mollitia
-                              recusandae nihil facilis? Vero cum, pariatur sunt aspernatur repellendus ipsam labore,
-                              illo, veritatis enim nulla similique magnam fugiat quas voluptatum.
+                              Merhaba Ben Mehmet Emin Alptekin.
+                              Bilgisayar Mühendisliği eğitimim boyunca hem yazılım hem donanım alanlarında üretmeye ve
+                              öğrenmeye odaklandım.
+                              Kod yazarken yalnızca problemleri çözmekle kalmıyor, aynı zamanda fikirlerimi somut
+                              projelere dönüştürümeyi seviyorum.
+                              Teknolojiyle düşünmeyi, tasarlamayı ve anlatmayı seviyorum.
+                              Bu siteyi, hem bu alanda gelişmek hem de yolculuğumu paylaşmak için hazırlandım.
                          </p>
 
                          <div class="links">
@@ -177,11 +180,13 @@
                          </div>
 
                          <div class="card card-3">
-                              <img src="image/uzay.jpg" alt="">
-                              <h3>BASLIK3</h3>
-                              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam delectus doloremque
-                                   deleniti culpa asperiores dignissimos omnis sint, fugiat quisquam voluptas eum sunt
-                                   nostrum, numquam similique cupiditate repudiandae quod voluptatibus nulla!</p>
+                              <img src="image/SpellChecker.jpg" alt="">
+                              <h3>SPELL CHECKER</h3>
+                              <p>Python diliyle geliştirdiğimiz bu uygulama, Türkçe metinlerdeki yazım hatalarını tespit
+                                   edip düzeltmek için Zemberek kütüphanesini kullanmaktadır. Zemberek servisini Docker
+                                   üzerinden çalıştırarak hızlı ve taşınabilir bir çözüm elde ettik. Uygulama, girilen
+                                   metni analiz eder, yanlış yazılmış kelimeleri belirler ve en uygun düzeltme
+                                   önerilerini sunar.</p>
                          </div>
 
 
@@ -190,12 +195,6 @@
                     <a class="arrow arrow-right" id="arrowRight"><i class="fa-solid fa-caret-left"></i></a>
                </div>
           </section>
-
-
-
-
-
-
 
 
 
@@ -263,6 +262,8 @@
           <section class="contact" id="contact">
 
                <div class="container">
+                    <!-- Başarı/Hata mesajı -->
+                    <div id="form-message" class="form-message"></div>
                     <div class="section-title">
                          <h2 class="animate top">CONTACT ME</h2>
                     </div>
@@ -285,27 +286,30 @@
                               </div>
                          </div>
                          <div class="contact-form animate right">
-                              <form>
+                              <form id="contact-form">
                                    <div class="form-group">
                                         <label for="name">Name</label>
-                                        <input type="text" id="name" placeholder="Enter your name" required>
+                                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
                                    </div>
                                    <div class="form-group">
                                         <label for="email">E-mail</label>
-                                        <input type="email" id="email" placeholder="Enter your email" required>
+                                        <input type="email" id="email" name="email" placeholder="Enter your email"
+                                             required>
                                    </div>
                                    <div class="form-group">
                                         <label for="subject">Subject</label>
-                                        <input type="text" id="subject" placeholder="Enter the subject" required>
+                                        <input type="text" id="subject" name="subject" placeholder="Enter the subject"
+                                             required>
                                    </div>
                                    <div class="form-group">
-                                        <label for="message">Messagge</label>
-                                        <textarea id="message" placeholder="Write your message here..."
+                                        <label for="message">Message</label>
+                                        <textarea id="message" name="message" placeholder="Write your message here..."
                                              required></textarea>
                                    </div>
-                                   <button class="button formButton">Submit</button>
+                                   <button class="button formButton" type="submit">Submit</button>
                               </form>
                          </div>
+
                     </div>
                     <footer class="footer">
                          <p>&copy; ALPTEKİN 2025.</p>
