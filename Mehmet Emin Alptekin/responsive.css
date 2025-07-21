@@ -58,7 +58,7 @@
           margin: 1rem;
           line-height: 1.2;
      }
-
+    
      .blogContainer {
           display: grid;
           grid-template-columns: repeat(2, 2fr);
@@ -214,6 +214,9 @@
           font-size: 1rem;
      }
 
+     .card{
+          height: 42rem;
+     }
 
      .card p {
           font-size: 1.2rem;
@@ -331,11 +334,27 @@
      }
 
      .karsilamaPage h1 {
-          font-size: 2.63rem;
+          font-size: 2.55rem;
      }
 
+     @keyframes move {
+          25% {
+               transform: translatey(-3.9rem);
+               opacity: 1;
+          }
+
+          50% {
+               transform: translatey(-7rem);
+          }
+
+          75% {
+               transform: translatey(-11.2rem);
+          }
+     }
+
+
      .homeContent {
-          width: 100%;
+          width: 10 0%;
           height: 70%;
           flex-direction: column-reverse;
           align-items: center;
@@ -403,6 +422,17 @@
           width: 8rem;
           height: 3.5rem;
           font-size: 1rem;
+     }
+     .card{
+          height: 40rem;
+     }
+
+     .card-2 {
+          transform: translateX(-8rem) scale(0.9);
+     }
+
+     .card-3 {
+          transform: translateX(8rem) scale(0.9);
      }
 
      .blogContainer {
@@ -509,7 +539,7 @@
      }
 
      .karsilamaPage h1 {
-          font-size: 2.7rem;
+          font-size: 2.5rem;
      }
 
      .burgerMenu {
@@ -577,6 +607,14 @@
           width: 8rem;
           height: 3.5rem;
           font-size: 1rem;
+     }
+
+     .card-2 {
+          transform: translateX(-5rem) scale(0.8);
+     }
+
+     .card-3 {
+          transform: translateX(5rem) scale(0.8);
      }
 
      .portfolio {
@@ -768,6 +806,21 @@
 
      .greeting {
           top: 6rem;
+     }
+
+     @keyframes move {
+          25% {
+               transform: translatey(-2.25rem);
+               opacity: 1;
+          }
+
+          50% {
+               transform: translatey(-5.2rem);
+          }
+
+          75% {
+               transform: translatey(-9.2rem);
+          }
      }
 
      .links {
