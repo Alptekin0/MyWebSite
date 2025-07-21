@@ -7,6 +7,8 @@ const xMark = document.querySelector(".burgerMenu i");
 const bar = document.querySelector(".bar i");
 const burgerLinks = document.querySelectorAll(".burgerMenu a");
 const button = document.querySelector(".button");
+const form = document.getElementById("contact-form");
+const messageBox = document.getElementById("form-message");
 
 
 
@@ -73,7 +75,7 @@ const observer = new IntersectionObserver((entries) => {
                const items = entry.target.querySelectorAll('.animate');
                items.forEach((item, index) => {
                     item.style.animationDelay = `${index * 0.1}s`;
-                    item.classList.add('start');  // animasyonu tetikle
+                    item.classList.add('start');
                });
                observer.unobserve(entry.target);
           }
@@ -134,5 +136,44 @@ burgerLinks.forEach(link => {
 button.addEventListener("click", openCV)
 
 function openCV() {
-  window.open("cv.pdf", "_blank");
+     window.open("cv.pdf", "_blank");
+}
+
+
+//FORM YÖNLEDİRMESİ ENGELLE VE MESAJ ÇIKAR
+
+form.addEventListener("submit", async function (e) {
+  e.preventDefault();
+
+  const formData = new FormData(form);
+  const data = Object.fromEntries(formData);
+
+  try {
+    const response = await fetch("https://formspree.io/f/mblkdypn", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(data)
+    });
+
+    if (response.ok) {
+      form.reset();
+      showMessage("Mesajınız başarıyla gönderildi!", "success");
+    } else {
+      showMessage("Gönderim sırasında bir hata oluştu.", "error");
+    }
+  } catch (error) {
+    showMessage("Sunucu hatası oluştu. Lütfen daha sonra tekrar deneyin.", "error");
+  }
+});
+
+function showMessage(message, type) {
+  messageBox.textContent = message;
+  messageBox.className = `form-message ${type}`;
+
+  setTimeout(() => {
+    messageBox.className = "form-message";
+    messageBox.style.opacity = "0";
+  }, 3000);
 }
