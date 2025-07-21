@@ -1,6 +1,6 @@
 # 🌐 Kişisel Web Sitem – Mehmet Emin Alptekin
-
-Merhaba, ben **Mehmet Emin Alptekin**. Bu proje, HTML, CSS ve JavaScript kullanarak geliştirdiğim kendi kişisel web sitemdir. Hedefim hem portfolyomu sunmak hem de front-end yeteneklerimi sergilemekti.  
+  
+Bu proje, HTML, CSS ve JavaScript kullanarak geliştirdiğim kendi kişisel web sitemdir. Hedefim hem portfolyomu sunmak hem de front-end yeteneklerimi sergilemekti.  
   
   
 ## 🚀 Proje Hakkında  
@@ -24,18 +24,18 @@ Ayrıca, özgeçmişimi doğrudan siteden erişilebilir kılmak için `cv.pdf` d
   
 ## Dosya Yapısı  
   
-MEHMET EMİN ALPTEKIN/
-│
-├── image/             # Görsellerin bulunduğu klasör
-│   └── image.png # README için ekran görüntüsü 
-│
-├── app.js             # JavaScript kodları
-├── cv.pdf             # PDF formatındaki özgeçmiş
-├── index.html         # Ana HTML dosyası
-├── responsive.css     # Mobil uyumlu CSS
-└── style.css          # Ana stil dosyası
+MEHMET EMİN ALPTEKIN/  
+│  
+├── image/             # Görsellerin bulunduğu klasör  
+│   └── image.png # README için ekran görüntüsü   
+│  
+├── app.js             # JavaScript kodları  
+├── cv.pdf             # PDF formatındaki özgeçmiş  
+├── index.html         # Ana HTML dosyası  
+├── responsive.css     # Mobil uyumlu CSS  
+└── style.css          # Ana stil dosyası  
+   
   
-
   
 ## 📌 Canlı Demo
 
