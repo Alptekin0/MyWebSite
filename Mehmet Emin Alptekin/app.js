@@ -136,7 +136,7 @@ burgerLinks.forEach(link => {
 button.addEventListener("click", openCV)
 
 function openCV() {
-     window.open("cv.pdf", "_blank");
+     window.open("CV.pdf", "_blank");
 }
 
 
@@ -177,3 +177,4 @@ function showMessage(message, type) {
     messageBox.style.opacity = "0";
   }, 3000);
 }
+
