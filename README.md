@@ -1,45 +1,50 @@
-# 🌐 Kişisel Web Sitem – Mehmet Emin Alptekin
-  
-Bu proje, HTML, CSS ve JavaScript kullanarak geliştirdiğim kendi kişisel web sitemdir. Hedefim hem portfolyomu sunmak hem de front-end yeteneklerimi sergilemekti.  
-  
-  
-## 🚀 Proje Hakkında  
-  
-Bu proje üç ana bileşen içerir:  
-  
-- **HTML** – Sayfa yapısı ve içerik  
-- **CSS (style.css & responsive.css)** – Stil ve responsive yapı  
-- **JavaScript (app.js)** – Dinamik davranışlar  
-  
-Ayrıca, özgeçmişimi doğrudan siteden erişilebilir kılmak için `cv.pdf` dosyasını da projeye ekledim.  
+# Mehmet Emin Alptekin - Kişisel Portfolyo Web Sitesi
 
-    
-## Kullanılan Teknolojiler :   
-  
----> HTML5  
----> CSS3 (Media Queries ile Responsive yapı)  
----> JavaScript (Vanilla JS)  
----> Formspree    
-  
-  
-## Dosya Yapısı  
-  
-MEHMET EMİN ALPTEKIN/  
-│  
-├── image/             # Görsellerin bulunduğu klasör  
-│   └── image.png # README için ekran görüntüsü   
-│  
-├── app.js             # JavaScript kodları  
-├── cv.pdf             # PDF formatındaki özgeçmiş  
-├── index.html         # Ana HTML dosyası  
-├── responsive.css     # Mobil uyumlu CSS  
-└── style.css          # Ana stil dosyası  
-   
-  
-  
-## 📌 Canlı Demo
+Bu proje, **kişisel portfolyo web sitem** olarak geliştirilmiş; kendimi, projelerimi ve blog yazılarımı sergileyebileceğim modern ve interaktif bir alan sunmaktadır.  
+HTML, CSS ve JavaScript kullanılarak sıfırdan tasarlanmış, mobil uyumlu ve kullanıcı odaklı bir yapıya sahiptir.  
+Ayrıca bu proje, **web programlama alanında kendimi geliştirmek ve kullandığım teknolojilerde pratik deneyim kazanmak** amacıyla hazırlanmıştır.
 
-GitHub Pages üzerinden yayına aldığım projeyi burdan da görebilirsiniz:  
+
+
+
+### 🌐 Canlı Demo
+
+🔗 **[Portfolio Web Sitesini Görüntüle](https://alptekin0.github.io/MyWebSite/Mehmet%20Emin%20Alptekin/)**
+
   
-👉 [Canlı Siteyi Görüntüle](https://alptekin0.github.io/MyWebSite/Mehmet%20Emin%20Alptekin/)  
   
+### Özellikler
+
+-   **Karşılama Ekranı:** Siteye girildiğinde kısa süreliğine bir karşılama animasyonu gösterir.
+-   **Akıcı Kaydırma:** Sayfalar arasında pürüzsüz geçişler için `scroll-snap` özelliği kullanılmıştır.
+-   **Duyarlı Tasarım (Responsive Design):** Mobil ve masaüstü cihazlarda mükemmel bir görünüm sağlamak için CSS medya sorguları ile uyarlanmıştır.
+-   **Portfolyo Kartları:** Geçişli bir mekanizmayla gezinebileceğiniz, projelere özel tasarlanmış kartlar içerir.
+-   **Gelişmiş CSS Animasyonları:** Sayfa kaydırma ile tetiklenen animasyonlar (örneğin, metin ve resimlerin ekranda belirmesi) kullanıcı deneyimini zenginleştirir.
+-   **İletişim Formu:** Ziyaretçilerin sizinle iletişim kurmasını sağlayan bir form bulunur.
+-   **Mobil Menü:** Küçük ekranlar için hamburger menü ile kolay gezinme imkanı sunar.
+-   **Sosyal Medya Bağlantıları:** LinkedIn, GitHub, Instagram ve Medium gibi platformlara hızlı erişim sağlayan ikonlar mevcuttur.
+
+### Kullanılan Teknolojiler
+
+-   **HTML:** Sitenin iskelet yapısını oluşturmak için kullanılmıştır.
+-   **CSS:** Sitenin görsel tasarımı, renkleri, animasyonları ve responsive yapısı için stil dosyaları kullanılmıştır.
+-   **JavaScript:** Karşılama ekranı, portfolyo kartlarının dönüşü, kaydırma animasyonları ve menü işlevselliği gibi dinamik özellikleri sağlar.
+-   **Font Awesome:** Sosyal medya ve menü ikonları için kullanılmıştır.
+-   **Google Fonts:** Modern ve okunaklı bir tipografi için 'Recursive' fontu kullanılmıştır.
+
+
+### Portfolyo Detayları
+
+Sitede şu projeler sergilenmektedir:
+
+-   **Mikroişlemci Tasarımı:** Bartın Üniversitesi Bilgisayar Mühendisliği bitirme projesi olarak Logisim ile tasarlanmış 16-bit bir mikroişlemcidir.
+-   **Web Sitesi:** Bu portfolyo sitesinin kendisi, temel web teknolojileri (HTML, CSS, JS) kullanılarak geliştirilmiştir.
+-   **Spell Checker:** Python ile geliştirilmiş, Türkçe metinlerde yazım hatalarını tespit eden ve düzelten bir uygulamadır. Docker üzerinden Zemberek kütüphanesini kullanır.
+
+### İletişim
+
+* Mehmet Emin Alptekin
+* [LinkedIn](https://www.linkedin.com/in/mehmet-emin-alptekin-645377322/)
+* [GitHub](https://github.com/Alptekin0)
+* [Medium](https://medium.com/@tersnokta0)
+* [Instagram](https://www.instagram.com/mehmet_alptekin0/)
